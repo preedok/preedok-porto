@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.lightMode {
+  background: #fff;
+  color: #333;
+}
+.switch {
+  margin: auto;
+  text-align: center;
+  position: sticky;
+
+  bottom: 1rem;
+}
+.switch button {
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  background: #041e44;
+  color: white;
+  border-radius: 100px;
+  border: 2px solid #ff7686;
+}
+
+@media (min-width: 768px) {
+  .navbarCollapse {
+    justify-content: flex-end;
+  }
+  .title {
+    width: 50%;
+    margin: auto;
+  }
+
+  .projectGrup {
+    width: 60%;
+    margin: auto !important;
+  }
+  .groupSocmed {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .cta {
+    position: absolute;
+    left: 2.5rem;
+    top: 5.7rem;
+  }
+  .cons {
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 768px) {
+  .group-socmed {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .cons {
+    overflow-x: hidden;
+  }
+}
+#username {
+  font-size: 2.9rem;
+  font-weight: 560;
+}
+.hero h2 {
+  background: linear-gradient(182.78deg, #ffbda0 2.32%, #ff6cd6 127.21%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-weight: 700;
+}
+.btnPrimary {
+  background: linear-gradient(90.55deg, #256bf4 -13.39%, #3ac1de 99.74%);
+  border-radius: 25px !important;
+  border: none !important;
+  padding: 0.75rem 3rem !important;
+  font-weight: 600 !important;
+}
+
+.cardDark {
+  background: #3e6296;
+  border-radius: 12px;
+  color: white;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+.cardDark img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.detail {
+  margin-top: 2rem;
+}
+
+.detail h3 {
+  font-size: 1rem;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+.detail p {
+  font-size: 0.75rem;
+  margin: 0;
+}
+.cardDark:hover {
+  background: linear-gradient(180deg, #ff7686 0%, #d72f93 100%);
+  transform: scale(1.1);
+  z-index: 99;
+}
+
+.design,
+.code {
+  margin-top: 4rem;
+}
+.title {
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  background: rgba(165, 202, 255, 0.2);
+  text-align: center;
+  border-radius: 15px;
+}
+
+.detailBanner {
+  padding: 1rem 1rem 2rem 1rem;
+  position: relative;
+}
+
+.cardUser {
+  margin-top: -3rem;
+}
+.title p {
+  text-align: left;
+}
+.card {
+  margin-bottom: 1.5rem;
+}
+.projectItem {
+  text-align: center;
+  padding: 2rem;
+}
+
+.highlight {
+  background: linear-gradient(90.55deg, #256bf4 -13.39%, #3ac1de 99.74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.cardSocmed {
+  background: rgba(165, 202, 255, 0.2);
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 0.5rem;
+}
