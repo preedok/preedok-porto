@@ -244,6 +244,86 @@ const Index = () => {
                     </div>
                   </div>
                 </div>
+                   <div className="col-md-3">
+                  <div className={style.card}>
+                    <div className={style.cardBanner} data-aos="zoom-in-right"
+                      data-aos-duration="1000">
+                      <img
+                        src={require("../../assets/hs.png")}
+                        alt="Design 1"
+                        className="img-fluid"
+                        style={{ borderRadius: "15px" }} data-aos="zoom-in-left"
+                        data-aos-duration="1000"
+                      />
+                    </div>
+                    <div className={style.detailBanner}>
+                      <div className={style.cardUser}>
+                        <Link to="">
+                          <img
+                            width="50px"
+                            height="50px"
+                            src={require("../../assets/github.png")}
+                            alt="" data-aos="zoom-in-right"
+                            data-aos-duration="1000"
+                          />
+                        </Link>
+                      </div>
+                      <div className={style.detail}>
+                        <h3 data-aos="zoom-in-left"
+                          data-aos-duration="1000">HIGH SCOPE INDONESIA</h3>
+                      </div>
+                      <div className={style.cta}>
+                        <a
+                          href="http://8.219.106.148:8001/session/signin"
+                          className={`btn btn-primary ${style.btnPrimary}`} data-aos="zoom-in-right"
+                          data-aos-duration="1000"
+                        >
+                          See Detail
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  <div className="col-md-3">
+                  <div className={style.card}>
+                    <div className={style.cardBanner} data-aos="zoom-in-right"
+                      data-aos-duration="1000">
+                      <img
+                        src={require("../../assets/jict.png")}
+                        alt="Design 1"
+                        className="img-fluid"
+                        style={{ borderRadius: "15px" }} data-aos="zoom-in-left"
+                        data-aos-duration="1000"
+                      />
+                    </div>
+                    <div className={style.detailBanner}>
+                      <div className={style.cardUser}>
+                        <Link to="">
+                          <img
+                            width="50px"
+                            height="50px"
+                            src={require("../../assets/github.png")}
+                            alt="" data-aos="zoom-in-right"
+                            data-aos-duration="1000"
+                          />
+                        </Link>
+                      </div>
+                      <div className={style.detail}>
+                        <h3 data-aos="zoom-in-left"
+                          data-aos-duration="1000">JICT Monitoring</h3>
+                      </div>
+                      <div className={style.cta}>
+                        <a
+                          href="http://jict.com"
+                          className={`btn btn-primary ${style.btnPrimary}`} data-aos="zoom-in-right"
+                          data-aos-duration="1000"
+                        >
+                          See Detail
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <div className="col-md-3">
                   <div className={style.card}>
                     <div className={style.cardBanner} data-aos="zoom-in-right"
