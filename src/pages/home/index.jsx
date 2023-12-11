@@ -252,7 +252,7 @@ const Index = () => {
                         src={require("../../assets/hs.png")}
                         alt="Design 1"
                         className="img-fluid"
-                        style={{ borderRadius: "15px" }} data-aos="zoom-in-left"
+                     style={{ borderRadius: "15px", height: '196px' }} data-aos="zoom-in-left"
                         data-aos-duration="1000"
                       />
                     </div>
@@ -292,7 +292,7 @@ const Index = () => {
                         src={require("../../assets/jict.png")}
                         alt="Design 1"
                         className="img-fluid"
-                        style={{ borderRadius: "15px" }} data-aos="zoom-in-left"
+                    style={{ borderRadius: "15px", height: '196px' }} data-aos="zoom-in-left"
                         data-aos-duration="1000"
                       />
                     </div>
