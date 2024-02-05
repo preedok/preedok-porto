@@ -648,8 +648,7 @@ const Index = () => {
                     src={require("../../assets/github.webp")}
                     alt="Social Media"
                     width={82}
-                    height={82} data-aos="zoom-in-left"
-                    data-aos-duration="1000"
+                    height={82}
                   />
                   <p>Github</p>
                   <a
