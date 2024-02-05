@@ -651,12 +651,10 @@ const Index = () => {
                     height={82} data-aos="zoom-in-left"
                     data-aos-duration="1000"
                   />
-                  <p data-aos="zoom-in-right"
-                    data-aos-duration="1000">Github</p>
+                  <p>Github</p>
                   <a
                     href="https://github.com/preedok?tab=repositories"
-                    className={`btn btn-primary ${style.btnPrimary}`} data-aos="zoom-in-left"
-                    data-aos-duration="1000"
+                    className={`btn btn-primary ${style.btnPrimary}`}
                   >
                     Follow Me
                   </a>
