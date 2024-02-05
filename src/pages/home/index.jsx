@@ -571,14 +571,14 @@ const Index = () => {
                       borderRadius: "50%",
                       padding: "10px",
                     }}
-                    src={require("../../assets/canva.png")}
+                    src={figma}
                     alt="Project" data-aos="zoom-in-right"
                     data-aos-duration="1000"
                   />
                   <p className={style.highlight} data-aos="zoom-in-left"
                     data-aos-duration="1000">{count}+</p>
                   <p data-aos="zoom-in-right"
-                    data-aos-duration="1000">Canva</p>
+                    data-aos-duration="1000">UI/UX Design</p>
                 </div>
               </div>
             </div>
