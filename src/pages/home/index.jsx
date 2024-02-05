@@ -244,7 +244,7 @@ const Index = () => {
                     </div>
                   </div>
                 </div>
-                   <div className="col-md-3">
+                <div className="col-md-3">
                   <div className={style.card}>
                     <div className={style.cardBanner} data-aos="zoom-in-right"
                       data-aos-duration="1000">
@@ -252,7 +252,7 @@ const Index = () => {
                         src={require("../../assets/hs.png")}
                         alt="Design 1"
                         className="img-fluid"
-                     style={{ borderRadius: "15px", height: '196px' }} data-aos="zoom-in-left"
+                        style={{ borderRadius: "15px", height: '196px' }} data-aos="zoom-in-left"
                         data-aos-duration="1000"
                       />
                     </div>
@@ -284,7 +284,7 @@ const Index = () => {
                     </div>
                   </div>
                 </div>
-                  <div className="col-md-3">
+                <div className="col-md-3">
                   <div className={style.card}>
                     <div className={style.cardBanner} data-aos="zoom-in-right"
                       data-aos-duration="1000">
@@ -292,7 +292,7 @@ const Index = () => {
                         src={require("../../assets/jict.png")}
                         alt="Design 1"
                         className="img-fluid"
-                    style={{ borderRadius: "15px", height: '196px' }} data-aos="zoom-in-left"
+                        style={{ borderRadius: "15px", height: '196px' }} data-aos="zoom-in-left"
                         data-aos-duration="1000"
                       />
                     </div>
@@ -315,6 +315,46 @@ const Index = () => {
                       <div className={style.cta}>
                         <a
                           href="http://jict.com"
+                          className={`btn btn-primary ${style.btnPrimary}`} data-aos="zoom-in-right"
+                          data-aos-duration="1000"
+                        >
+                          See Detail
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-3">
+                  <div className={style.card}>
+                    <div className={style.cardBanner} data-aos="zoom-in-right"
+                      data-aos-duration="1000">
+                      <img
+                        src={require("../../assets/ponti.png")}
+                        alt="Design 1"
+                        className="img-fluid"
+                        style={{ borderRadius: "15px", height: '196px' }} data-aos="zoom-in-left"
+                        data-aos-duration="1000"
+                      />
+                    </div>
+                    <div className={style.detailBanner}>
+                      <div className={style.cardUser}>
+                        <Link to="">
+                          <img
+                            width="50px"
+                            height="50px"
+                            src={require("../../assets/github.png")}
+                            alt="" data-aos="zoom-in-right"
+                            data-aos-duration="1000"
+                          />
+                        </Link>
+                      </div>
+                      <div className={style.detail}>
+                        <h3 data-aos="zoom-in-left"
+                          data-aos-duration="1000">Pelindo AutoGate Monitoring</h3>
+                      </div>
+                      <div className={style.cta}>
+                        <a
+                          href="http://ams.pnk.halotec.my.id"
                           className={`btn btn-primary ${style.btnPrimary}`} data-aos="zoom-in-right"
                           data-aos-duration="1000"
                         >
