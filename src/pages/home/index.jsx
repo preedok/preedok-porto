@@ -195,8 +195,8 @@ const Index = () => {
               data-aos-duration="1000">Code</h2>
             <p className="my-auto" data-aos="zoom-in-right"
               data-aos-duration="1000">
-              These are my projects created using ExpressJS, NextJS, ReactJS,
-              Bootstrap, PostgreSql
+              These are my projects created using ExpressJS, NextJS, ReactJS, React Native,
+              Bootstrap, Material UI, Tailwind, PostgreSql
             </p>
           </div>
           <div className={style.content}>
