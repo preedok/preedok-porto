@@ -113,12 +113,12 @@ const Index = () => {
                   <div className={style.detail}>
                     <h3 data-aos="zoom-in-right"
                       data-aos-duration="1000">ReactJS Developer</h3>
-                    <p>
+{/*                     <p>
                       <b data-aos="zoom-in-left"
                         data-aos-duration="1000">PT. Halotec Indonesia</b>
                     </p>
                     <p data-aos="zoom-in-right"
-                      data-aos-duration="1000">April 2023 - Now</p>
+                      data-aos-duration="1000">April 2023 - Now</p> */}
                   </div>
                 </div>
               </div>
@@ -133,12 +133,12 @@ const Index = () => {
                   <div className={style.detail}>
                     <h3 data-aos="zoom-in-right"
                       data-aos-duration="1000">Backend Developer</h3>
-                    <p>
+{/*                     <p>
                       <b data-aos="zoom-in-right"
                         data-aos-duration="1000">PT. Halotec Indonesia</b>
                     </p>
                     <p data-aos="zoom-in-left"
-                      data-aos-duration="1000">April 2023 - Now</p>
+                      data-aos-duration="1000">April 2023 - Now</p> */}
                   </div>
                 </div>
               </div>
@@ -153,12 +153,12 @@ const Index = () => {
                   <div className={style.detail}>
                     <h3 data-aos="zoom-in-left"
                       data-aos-duration="1000">React Native developer</h3>
-                    <p data-aos="zoom-in-right"
+{/*                     <p data-aos="zoom-in-right"
                       data-aos-duration="1000">
                       <b>PT. Halotec Indonesia</b>
                     </p>
                     <p data-aos="zoom-in-left"
-                      data-aos-duration="1000">April 2023 - Now</p>
+                      data-aos-duration="1000">April 2023 - Now</p> */}
                   </div>
                 </div>
               </div>
@@ -169,13 +169,13 @@ const Index = () => {
                   <div className={style.detail} data-aos="zoom-in-left"
                     data-aos-duration="1000">
                     <h3>UI Designer</h3>
-                    <p data-aos="zoom-in-right"
+{/*                     <p data-aos="zoom-in-right"
                       data-aos-duration="1000">
                       <b data-aos="zoom-in-left"
                         data-aos-duration="1000">PT. Halotec Indonesia</b>
                     </p>
                     <p data-aos="zoom-in-right"
-                      data-aos-duration="1000">April 2023 - Now</p>
+                      data-aos-duration="1000">April 2023 - Now</p> */}
                   </div>
                 </div>
               </div>
