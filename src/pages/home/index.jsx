@@ -152,7 +152,7 @@ const Index = () => {
                   />
                   <div className={style.detail}>
                     <h3 data-aos="zoom-in-left"
-                      data-aos-duration="1000">React Native developer</h3>
+                      data-aos-duration="1000">React Native Developer</h3>
 {/*                     <p data-aos="zoom-in-right"
                       data-aos-duration="1000">
                       <b>PT. Halotec Indonesia</b>
@@ -168,7 +168,7 @@ const Index = () => {
                     data-aos-duration="1000" />
                   <div className={style.detail} data-aos="zoom-in-left"
                     data-aos-duration="1000">
-                    <h3>UI Designer</h3>
+                    <h3>UI/UX Designer</h3>
 {/*                     <p data-aos="zoom-in-right"
                       data-aos-duration="1000">
                       <b data-aos="zoom-in-left"
