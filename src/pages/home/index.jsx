@@ -364,7 +364,7 @@ const Index = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-3">
+{/*                 <div className="col-md-3">
                   <div className={style.card}>
                     <div className={style.cardBanner} data-aos="zoom-in-right"
                       data-aos-duration="1000">
@@ -403,7 +403,7 @@ const Index = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 <div className="col-md-3">
                   <div className={style.card}>
                     <div className={style.cardBanner} data-aos="zoom-in-left"
