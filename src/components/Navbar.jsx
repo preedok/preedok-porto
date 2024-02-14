@@ -33,7 +33,7 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav ms-auto">
-              <a
+{/*               <a
                 style={{ color: "#ff7686", fontWeight: "600" }}
                 className="nav-link active"
                 aria-current="page"
@@ -61,7 +61,7 @@ const Navbar = () => {
                 href="#connect"
               >
                 Connect
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
