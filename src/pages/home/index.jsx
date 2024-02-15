@@ -310,7 +310,7 @@ const Index = () => {
                       </div>
                       <div className={style.detail}>
                         <h3 data-aos="zoom-in-left"
-                          data-aos-duration="1000">JICT Monitoring</h3>
+                          data-aos-duration="1000">JICT OCR Monitoring</h3>
                       </div>
                       <div className={style.cta}>
                         <a
@@ -350,7 +350,7 @@ const Index = () => {
                       </div>
                       <div className={style.detail}>
                         <h3 data-aos="zoom-in-left"
-                          data-aos-duration="1000">PELINDO AutoGate Monitoring</h3>
+                          data-aos-duration="1000">PELINDO OCR Monitoring</h3>
                       </div>
                       <div className={style.cta}>
                         <a
