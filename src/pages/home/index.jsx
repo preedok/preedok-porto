@@ -28,7 +28,7 @@ const Index = () => {
   const [words, setWords] = useState([
     "Frontend Developer",
     "Backend Developer",
-    "Graphic Design",
+    "UI/UX Design",
   ]);
   const [index, setIndex] = useState(0);
 
