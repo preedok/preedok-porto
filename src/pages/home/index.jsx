@@ -228,7 +228,7 @@ const Index = () => {
                       </div>
                       <div className={style.detail} data-aos="zoom-in-left"
                         data-aos-duration="1000">
-                        <h3>SIPPRO KEMENAG</h3>
+                        <h3>SIPPRO KEMENAG RI</h3>
                       </div>
 
                       <div className={style.cta}>
