@@ -452,6 +452,8 @@ const Index = () => {
                         style={{ borderRadius: "15px" }}
                         src={require("../../assets/kemenag2.png")}
                         alt="Design 1"
+                           width="50px"
+                            height="50px"
                         className="img-fluid" data-aos="zoom-in-left"
                         data-aos-duration="1000"
                       />
