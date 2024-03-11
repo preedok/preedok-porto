@@ -354,7 +354,7 @@ const Index = () => {
                       </div>
                       <div className={style.cta}>
                         <a
-                          href="http://ams.pnk.halotec.my.id"
+                          href="https://ocr-uat-mon.jict.co.id"
                           className={`btn btn-primary ${style.btnPrimary}`} data-aos="zoom-in-right"
                           data-aos-duration="1000"
                         >
