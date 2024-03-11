@@ -228,7 +228,7 @@ const Index = () => {
                       </div>
                       <div className={style.detail} data-aos="zoom-in-left"
                         data-aos-duration="1000">
-                        <h3>DIKTIS KEMENAG</h3>
+                        <h3>SIPPRO KEMENAG</h3>
                       </div>
 
                       <div className={style.cta}>
@@ -472,7 +472,7 @@ const Index = () => {
                       </div>
                       <div className={style.detail}>
                         <h3 data-aos="zoom-in-left"
-                          data-aos-duration="1000">Penyetaraan Ijazah KEMENAG RI</h3>
+                          data-aos-duration="1000">PIKN KEMENAG RI</h3>
                       </div>
                       <div className={style.cta}>
                         <a
