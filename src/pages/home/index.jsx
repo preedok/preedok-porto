@@ -329,7 +329,7 @@ const Index = () => {
                     <div className={style.cardBanner} data-aos="zoom-in-right"
                       data-aos-duration="1000">
                       <img
-                        src={require("../../assets/pelindo.jpg")}
+                        src={require("../../assets/pelindo1.jpg")}
                         alt="Design 1"
                         className="img-fluid"
                         style={{ borderRadius: "15px", height: '196px' }} data-aos="zoom-in-left"
