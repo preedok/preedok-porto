@@ -450,7 +450,7 @@ const Index = () => {
                       data-aos-duration="1000">
                       <img
                         style={{ borderRadius: "15px" }}
-                        src={require("../../assets/pe.webp")}
+                        src={require("../../assets/kemenag2.png")}
                         alt="Design 1"
                         className="img-fluid" data-aos="zoom-in-left"
                         data-aos-duration="1000"
@@ -458,7 +458,7 @@ const Index = () => {
                     </div>
                     <div className={style.detailBanner}>
                       <div className={style.cardUser}>
-                        <Link to="https://github.com/preedok/FE-ANKASA">
+                        <Link to="https://staging-fe.pikn.madrasahkemenag.com/">
                           <img
                             width="50px"
                             height="50px"
@@ -470,11 +470,11 @@ const Index = () => {
                       </div>
                       <div className={style.detail}>
                         <h3 data-aos="zoom-in-left"
-                          data-aos-duration="1000">Ankasa App</h3>
+                          data-aos-duration="1000">Penyetaraan Ijazah KEMENAG RI</h3>
                       </div>
                       <div className={style.cta}>
                         <a
-                          href="https://ankasa2023.vercel.app/"
+                          href="https://staging-fe.pikn.madrasahkemenag.com/"
                           className={`btn btn-primary ${style.btnPrimary}`} data-aos="zoom-in-right"
                           data-aos-duration="1000"
                         >
