@@ -453,7 +453,7 @@ const Index = () => {
                         style={{ borderRadius: "15px" }}
                         src={require("../../assets/wa.webp")}
                         alt="Design 1"
-                         style={{ borderRadius: "15px", height: '196px' }}
+                           style={{ borderRadius: "15px", height: '196px' }}
                         className="img-fluid" data-aos="zoom-in-left"
                         data-aos-duration="1000"
                       />
