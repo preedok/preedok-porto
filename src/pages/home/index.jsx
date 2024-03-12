@@ -408,48 +408,7 @@ const Index = () => {
                   <div className={style.card}>
                     <div className={style.cardBanner} data-aos="zoom-in-left"
                       data-aos-duration="1000">
-                      <img
-                        style={{ borderRadius: "15px" }}
-                        src={require("../../assets/wa.webp")}
-                        alt="Design 1"
-                         style={{ borderRadius: "15px", height: '196px' }}
-                        className="img-fluid" data-aos="zoom-in-left"
-                        data-aos-duration="1000"
-                      />
-                    </div>
-                    <div className={style.detailBanner}>
-                      <div  className={style.cardUser}>
-                        <Link to="https://github.com/preedok/FE-WhatsApp">
-                          <img
-                            width="50px"
-                            height="50px"
-                            src={require("../../assets/github.png")}
-                            alt="" data-aos="zoom-in-right"
-                            data-aos-duration="1000"
-                          />
-                        </Link>
-                      </div>
-                      <div className={style.detail}>
-                        <h3 data-aos="zoom-in-left"
-                          data-aos-duration="1000">Sleep Call App</h3>
-                      </div>
-                      <div className={style.cta}>
-                        <a
-                          href="https://fe-sleepcall-app.vercel.app/login"
-                          className={`btn btn-primary ${style.btnPrimary}`} data-aos="zoom-in-right"
-                          data-aos-duration="1000"
-                        >
-                          See Detail
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-md-3">
-                  <div className={style.card}>
-                    <div className={style.cardBanner} data-aos="zoom-in-left"
-                      data-aos-duration="1000">
-                      <img
+                       <img
                         style={{ borderRadius: "15px" }}
                         src={require("../../assets/kemenag2.png")}
                         alt="Design 1"
@@ -459,8 +418,8 @@ const Index = () => {
                       />
                     </div>
                     <div className={style.detailBanner}>
-                      <div className={style.cardUser}>
-                        <Link to="https://staging-fe.pikn.madrasahkemenag.com/">
+                      <div  className={style.cardUser}>
+                        <Link to="https://staging-fe.pikn.madrasahkemenag.com/ ">
                           <img
                             width="50px"
                             height="50px"
@@ -477,6 +436,47 @@ const Index = () => {
                       <div className={style.cta}>
                         <a
                           href="https://staging-fe.pikn.madrasahkemenag.com/"
+                          className={`btn btn-primary ${style.btnPrimary}`} data-aos="zoom-in-right"
+                          data-aos-duration="1000"
+                        >
+                          See Detail
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-3">
+                  <div className={style.card}>
+                    <div className={style.cardBanner} data-aos="zoom-in-left"
+                      data-aos-duration="1000">
+                                            <img
+                        style={{ borderRadius: "15px" }}
+                        src={require("../../assets/wa.webp")}
+                        alt="Design 1"
+                         style={{ borderRadius: "15px", height: '196px' }}
+                        className="img-fluid" data-aos="zoom-in-left"
+                        data-aos-duration="1000"
+                      />
+                    </div>
+                    <div className={style.detailBanner}>
+                      <div className={style.cardUser}>
+                        <Link to="https://github.com/preedok/FE-WhatsApp">
+                          <img
+                            width="50px"
+                            height="50px"
+                            src={require("../../assets/github.png")}
+                            alt="" data-aos="zoom-in-right"
+                            data-aos-duration="1000"
+                          />
+                        </Link>
+                      </div>
+                      <div className={style.detail}>
+                        <h3 data-aos="zoom-in-left"
+                          data-aos-duration="1000">Sleep Call App</h3>
+                      </div>
+                      <div className={style.cta}>
+                        <a
+                          href="https://fe-sleepcall-app.vercel.app/login "
                           className={`btn btn-primary ${style.btnPrimary}`} data-aos="zoom-in-right"
                           data-aos-duration="1000"
                         >
