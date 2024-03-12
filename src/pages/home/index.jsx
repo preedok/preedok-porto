@@ -419,7 +419,7 @@ const Index = () => {
                     </div>
                     <div className={style.detailBanner}>
                       <div  className={style.cardUser}>
-                        <Link to="https://staging-fe.pikn.madrasahkemenag.com/ ">
+                        <Link to="https://ijazah.kemenag.go.id/">
                           <img
                             width="50px"
                             height="50px"
@@ -435,7 +435,7 @@ const Index = () => {
                       </div>
                       <div className={style.cta}>
                         <a
-                          href="https://staging-fe.pikn.madrasahkemenag.com/"
+                          href="https://ijazah.kemenag.go.id/"
                           className={`btn btn-primary ${style.btnPrimary}`} data-aos="zoom-in-right"
                           data-aos-duration="1000"
                         >
