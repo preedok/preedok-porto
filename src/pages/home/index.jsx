@@ -28,7 +28,7 @@ const Index = () => {
   const [words, setWords] = useState([
     "Frontend Developer",
     "Backend Developer",
-    "UI/UX Design",
+    "UI/UX Designer",
   ]);
   const [index, setIndex] = useState(0);
 
@@ -417,7 +417,7 @@ const Index = () => {
                       />
                     </div>
                     <div className={style.detailBanner}>
-                      <div className={style.cardUser}>
+                      <div  className={style.cardUser}>
                         <Link to="https://github.com/preedok/FE-WhatsApp">
                           <img
                             width="50px"
@@ -452,8 +452,6 @@ const Index = () => {
                         style={{ borderRadius: "15px" }}
                         src={require("../../assets/kemenag2.png")}
                         alt="Design 1"
-                           width="50px"
-                            height="50px"
                         className="img-fluid" data-aos="zoom-in-left"
                         data-aos-duration="1000"
                       />
