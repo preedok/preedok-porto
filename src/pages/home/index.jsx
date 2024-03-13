@@ -113,7 +113,7 @@ const Index = () => {
                   <div className={style.detail}>
                     <h3 data-aos="zoom-in-right"
                       data-aos-duration="1000">ReactJS Developer</h3>
-{/*                     <p>
+                    {/*                     <p>
                       <b data-aos="zoom-in-left"
                         data-aos-duration="1000">PT. Halotec Indonesia</b>
                     </p>
@@ -133,7 +133,7 @@ const Index = () => {
                   <div className={style.detail}>
                     <h3 data-aos="zoom-in-right"
                       data-aos-duration="1000">Backend Developer</h3>
-{/*                     <p>
+                    {/*                     <p>
                       <b data-aos="zoom-in-right"
                         data-aos-duration="1000">PT. Halotec Indonesia</b>
                     </p>
@@ -153,7 +153,7 @@ const Index = () => {
                   <div className={style.detail}>
                     <h3 data-aos="zoom-in-left"
                       data-aos-duration="1000">React Native Developer</h3>
-{/*                     <p data-aos="zoom-in-right"
+                    {/*                     <p data-aos="zoom-in-right"
                       data-aos-duration="1000">
                       <b>PT. Halotec Indonesia</b>
                     </p>
@@ -169,7 +169,7 @@ const Index = () => {
                   <div className={style.detail} data-aos="zoom-in-left"
                     data-aos-duration="1000">
                     <h3>UI/UX Designer</h3>
-{/*                     <p data-aos="zoom-in-right"
+                    {/*                     <p data-aos="zoom-in-right"
                       data-aos-duration="1000">
                       <b data-aos="zoom-in-left"
                         data-aos-duration="1000">PT. Halotec Indonesia</b>
@@ -364,61 +364,20 @@ const Index = () => {
                     </div>
                   </div>
                 </div>
-{/*                 <div className="col-md-3">
-                  <div className={style.card}>
-                    <div className={style.cardBanner} data-aos="zoom-in-right"
-                      data-aos-duration="1000">
-                      <img
-                        src={require("../../assets/hire.jpg")}
-                        alt="Design 1"
-                        className="img-fluid"
-                        style={{ borderRadius: "15px" }} data-aos="zoom-in-left"
-                        data-aos-duration="1000"
-                      />
-                    </div>
-                    <div className={style.detailBanner}>
-                      <div className={style.cardUser}>
-                        <Link to="https://github.com/preedok/FE-JOB">
-                          <img
-                            width="50px"
-                            height="50px"
-                            src={require("../../assets/github.png")}
-                            alt="" data-aos="zoom-in-right"
-                            data-aos-duration="1000"
-                          />
-                        </Link>
-                      </div>
-                      <div className={style.detail}>
-                        <h3 data-aos="zoom-in-left"
-                          data-aos-duration="1000">Hire Job App</h3>
-                      </div>
-                      <div className={style.cta}>
-                        <a
-                          href="https://portalkerja2023.vercel.app/"
-                          className={`btn btn-primary ${style.btnPrimary}`} data-aos="zoom-in-right"
-                          data-aos-duration="1000"
-                        >
-                          See Detail
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
                 <div className="col-md-3">
                   <div className={style.card}>
                     <div className={style.cardBanner} data-aos="zoom-in-left"
                       data-aos-duration="1000">
-                       <img
-                        style={{ borderRadius: "15px" }}
+                      <img
+                        style={{ borderRadius: "15px", height: '196px' }}
                         src={require("../../assets/kemenag2.png")}
                         alt="Design 1"
-                         style={{ borderRadius: "15px", height: '196px' }}
                         className="img-fluid" data-aos="zoom-in-left"
                         data-aos-duration="1000"
                       />
                     </div>
                     <div className={style.detailBanner}>
-                      <div  className={style.cardUser}>
+                      <div className={style.cardUser}>
                         <Link to="https://ijazah.kemenag.go.id/">
                           <img
                             width="50px"
@@ -449,19 +408,20 @@ const Index = () => {
                   <div className={style.card}>
                     <div className={style.cardBanner} data-aos="zoom-in-left"
                       data-aos-duration="1000">
-                                            <img
-                        style={{ borderRadius: "15px" }}
+                      <img
+                        style={{ borderRadius: "15px",  height: '196px' }}
                         src={require("../../assets/wa.webp")}
                         alt="Design 1"
-                           style={{ borderRadius: "15px", height: '196px' }}
                         className="img-fluid" data-aos="zoom-in-left"
                         data-aos-duration="1000"
                       />
                     </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-
         {/* Project */}
         <div
           data-aos="zoom-in-right"
