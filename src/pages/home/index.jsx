@@ -458,9 +458,6 @@ const Index = () => {
                         data-aos-duration="1000"
                       />
                     </div>
-                  
-                </div>
-              </div>
             </div>
           </div>
         </div>
