@@ -458,33 +458,7 @@ const Index = () => {
                         data-aos-duration="1000"
                       />
                     </div>
-                    <div className={style.detailBanner}>
-                      <div className={style.cardUser}>
-                        <Link to="https://github.com/preedok/FE-WhatsApp">
-                          <img
-                            width="50px"
-                            height="50px"
-                            src={require("../../assets/github.png")}
-                            alt="" data-aos="zoom-in-right"
-                            data-aos-duration="1000"
-                          />
-                        </Link>
-                      </div>
-                      <div className={style.detail}>
-                        <h3 data-aos="zoom-in-left"
-                          data-aos-duration="1000">Sleep Call App</h3>
-                      </div>
-                      <div className={style.cta}>
-                        <a
-                          href="https://fe-sleepcall-app.vercel.app/login "
-                          className={`btn btn-primary ${style.btnPrimary}`} data-aos="zoom-in-right"
-                          data-aos-duration="1000"
-                        >
-                          See Detail
-                        </a>
-                      </div>
-                    </div>
-                  </div>
+                  
                 </div>
               </div>
             </div>
