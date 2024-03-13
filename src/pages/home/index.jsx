@@ -404,20 +404,6 @@ const Index = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-3">
-                  <div className={style.card}>
-                    <div className={style.cardBanner} data-aos="zoom-in-left"
-                      data-aos-duration="1000">
-                      <img
-                        style={{ borderRadius: "15px",  height: '196px' }}
-                        src={require("../../assets/wa.webp")}
-                        alt="Design 1"
-                        className="img-fluid" data-aos="zoom-in-left"
-                        data-aos-duration="1000"
-                      />
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
