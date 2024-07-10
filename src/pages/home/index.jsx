@@ -376,7 +376,7 @@ const Index = () => {
                         data-aos-duration="1000"
                       />
                     </div>
-                    <div className={style.detailBanner}>
+                    <div className={`${style.detailBanner} mt-3 `}>
                       <div className={style.cardUser}>
                         <Link to="https://ijazah.kemenag.go.id/">
                           <img
