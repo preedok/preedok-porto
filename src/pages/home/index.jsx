@@ -79,18 +79,26 @@ const Index = () => {
                   Contact Me
                 </a>
               </div>
-              <div
+              <div className="col-md-6">
+  <div 
+    style={{
+      border: "5px solid #ccc", 
+      borderRadius: "25px", 
+      overflow: "hidden",
+      boxShadow: "0 4px 8px rgba(0,0,0,0.1)"
+    }}
+    data-aos="zoom-in-right"
+    data-aos-duration="1000"
+  >
+    <img
+      style={{ marginBottom: "55px", width: "100%", height: "auto" }}
+      src={require("../../assets/animation_500_lfjt95fy.gif")}
+      alt="hero"
+      className={style.imgFluid}
+    />
+  </div>
+</div>
 
-                className="col-md-6"
-              >
-                <img
-                  style={{ marginBottom: "55px", borderRadius: "25px" }}
-                  src={require("../../assets/animation_500_lfjt95fy.gif")}
-                  alt="hero"
-                  className={style.imgFluid} data-aos="zoom-in-right"
-                  data-aos-duration="1000"
-                />
-              </div>
             </div>
           </div>
         </section>
