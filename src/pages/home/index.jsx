@@ -60,7 +60,7 @@ const Index = () => {
                 className="col-md-6 my-auto"
               >
                 <h3 id={style.username} data-aos="zoom-in-left"
-                  data-aos-duration="1000">Muhamad Iqbal Aprido</h3>
+                  data-aos-duration="1000">Iqbal Apredo</h3>
                 <h2 className={index % 2 === 0 ? "slide-in" : "fade-out"} data-aos="zoom-in-right"
                   data-aos-duration="1000">
                   {words[index]}
