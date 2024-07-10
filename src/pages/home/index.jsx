@@ -73,7 +73,7 @@ const Index = () => {
                 </p>
                 <a
                   href="https://wa.wizard.id/25f369"
-                  className={`btn ${style.btnPrimary} btn-primary mt-3`}
+                  className={`btn ${style.btnPrimary} mb-3 btn-primary mt-3`}
                   data-aos="zoom-in-left"
                   data-aos-duration="1000">
                   Contact Me
