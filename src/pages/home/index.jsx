@@ -364,7 +364,7 @@ const Index = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-3">
+                <div className=" mt-3  col-md-3">
                   <div className={style.card}>
                     <div className={style.cardBanner} data-aos="zoom-in-left"
                       data-aos-duration="1000">
@@ -376,7 +376,7 @@ const Index = () => {
                         data-aos-duration="1000"
                       />
                     </div>
-                    <div className={`${style.detailBanner} mt-3 `}>
+                    <div className={`${style.detailBanner}`}>
                       <div className={style.cardUser}>
                         <Link to="https://ijazah.kemenag.go.id/">
                           <img
