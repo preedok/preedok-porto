@@ -454,14 +454,14 @@ const Index = () => {
                       borderRadius: "50%",
                       padding: "10px",
                     }}
-                    src={require("../../assets/Expressjs.png")}
+                    src={require("../../assets/gol.png")}
                     alt="Project" data-aos="zoom-in-right"
                     data-aos-duration="1000"
                   />
                   <p className={style.highlight} data-aos="zoom-in-left"
                     data-aos-duration="1000">{count}+</p>
                   <p data-aos="zoom-in-right"
-                    data-aos-duration="1000">ExpressJS</p>
+                    data-aos-duration="1000">ExpressJS & Golang</p>
                 </div>
                 <div className={` col-md-3 ${style.projectItem}`}>
                   <img
