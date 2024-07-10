@@ -126,7 +126,7 @@ const Index = () => {
                 <div className={style.cardDark}>
                   <img
                     style={{ width: "70px", height: "50px" }}
-                    src={require("../../assets/go.png")}
+                    src={require("../../assets/gol.png")}
                     alt="Icon Experience" data-aos="zoom-in-left"
                     data-aos-duration="1000"
                   />
