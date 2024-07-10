@@ -87,6 +87,7 @@ const Index = () => {
       overflow: "hidden",
       boxShadow: "0 4px 8px rgba(0,0,0,0.1)"
     }}
+    className='ms-3'
     data-aos="zoom-in-right"
     data-aos-duration="1000"
   >
