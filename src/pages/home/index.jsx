@@ -404,6 +404,46 @@ const Index = () => {
                     </div>
                   </div>
                 </div>
+                <div className=" mt-3  col-md-3">
+                  <div className={style.card}>
+                    <div className={style.cardBanner} data-aos="zoom-in-left"
+                      data-aos-duration="1000">
+                      <img
+                        style={{ borderRadius: "15px", height: '196px' }}
+                        src={require("../../assets/bni.png")}
+                        alt="Design 1"
+                        className="img-fluid" data-aos="zoom-in-left"
+                        data-aos-duration="1000"
+                      />
+                    </div>
+                    <div className={`${style.detailBanner}`}>
+                      <div className={style.cardUser}>
+                        <Link to="http://app.bnisekuritas.co.id/">
+                          <img
+                            width="50px"
+                            height="50px"
+                            src={require("../../assets/github.png")}
+                            alt="" data-aos="zoom-in-right"
+                            data-aos-duration="1000"
+                          />
+                        </Link>
+                      </div>
+                      <div className={style.detail}>
+                        <h3 data-aos="zoom-in-left"
+                          data-aos-duration="1000">PIKN KEMENAG RI</h3>
+                      </div>
+                      <div className={style.cta}>
+                        <a
+                          href="http://app.bnisekuritas.co.id"
+                          className={`btn btn-primary ${style.btnPrimary}`} data-aos="zoom-in-right"
+                          data-aos-duration="1000"
+                        >
+                          See Detail
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
